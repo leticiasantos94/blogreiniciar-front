@@ -1,8 +1,4 @@
-.textos1{
-    font-weight: bold !important;
-}
-
-.imagem {
+.imagem2 {
     background-image: url(https://observatorio3setor.org.br/wp-content/uploads/2019/09/1-girassol.jpg);
     background-repeat: no-repeat;
     width: 100vh;
@@ -11,12 +7,10 @@
     background-position: center;
 }    
 
-.btnlogar{
-    background: gold;
-    color: #4e2f00
+.textos2{
+    font-weight: bold !important;
 }
 
-.text-decorator-none {
-    text-decoration: none;
+.btnCancelar{
+    margin-right: 20px !important;
 }
-

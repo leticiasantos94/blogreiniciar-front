@@ -1,18 +1,21 @@
 import React from "react";
-import { AppBar, Toolbar, Typography, Box } from "@material-ui/core";
+import { AppBar, Toolbar, Typography, Box, Grid } from "@material-ui/core";
 import {Link} from "react-router-dom";
 import "./Navbar.css"
 
 function Navbar() {
     return (
         <>
-            <AppBar position="static">
+         
+            <AppBar position="static" style={{backgroundColor: "#4e2f00" }}>
                 <Toolbar variant="dense">
+                    
                     <Box className="cursor">
-                        <Typography variant="h5" color="inherit">
+                        <Typography variant="h5" color= "inherit">
                             BlogReiniciar
                         </Typography>
                     </Box>
+                   
 
                     <Box display="flex" justifyContent="start">
                         <Box mx={1} className="cursor">
@@ -44,9 +47,10 @@ function Navbar() {
                         </Link>
 
                     </Box>
-
+                   
                 </Toolbar>
             </AppBar>
+            
         </>
     )
 }
